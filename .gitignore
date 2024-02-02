@@ -173,9 +173,11 @@ info.txt
 photo_2024-01-29_15-19-17.jpg
 photo_2024-01-29_16-42-06.jpg
 README.dataset.txt
-README.md
 README.roboflow.txt
 setup.py
 yolov8n.pt
 yolov8s.pt
 Копия_блокнота__[project]object_detection_spring_2023_ipynb_.ipynb
+aws/
+runs/
+awscliv2.zip
