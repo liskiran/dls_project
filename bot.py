@@ -61,9 +61,7 @@ async def download_photo(message: Message, bot: Bot):
     file_ids = []
 
     print("Predicted started")
-    await predict(
-        test_image=f"/temp_folder/telegram_photos/predict_{message.message_id}.jpg"
-    )
+    await predict()
     print("Predicted stopped")
 
     image_from_pc = FSInputFile("runs/detect/predict/predict.jpg")
